@@ -1,0 +1,30 @@
+{
+    "locations": [
+        {
+            "id": "depot",
+            "lat": 40.7128,
+            "lng": -74.006
+        },
+        {
+            "id": "customer_1",
+            "lat": 40.758,
+            "lng": -73.9855
+        },
+        {
+            "id": "customer_2",
+            "lat": 40.7489,
+            "lng": -73.968
+        }
+    ],
+    "num_vehicles": 2,
+    "vehicle_capacities": [
+        60,
+        60
+    ],
+    "demands": [
+        0,
+        30,
+        50
+    ],
+    "time_limit_seconds": 30
+}
