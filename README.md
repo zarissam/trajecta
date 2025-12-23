@@ -52,40 +52,38 @@ curl -X POST "http://localhost:8000/optimize" \
         { "id": "customer_2", "lat": 40.7489, "lng": -73.968 }
     ],
     "num_vehicles": 2,
-    "vehicle_capacities": [60, 60],
-    "demands": [0, 30, 50],
     "time_limit_seconds": 30
     }'
 ```
 
 **Response:**
 ```json
-{
-    "total_distance": 20896,
+    {
+    "total_distance": 12235,
     "routes": [
     {
         "vehicle_id": 0,
         "location_ids": [
         "depot",
-        "customer_1",
         "depot"
         ],
-        "distance": 10628
+        "distance": 0
     },
     {
         "vehicle_id": 1,
         "location_ids": [
         "depot",
         "customer_2",
+        "customer_1",
         "depot"
         ],
-        "distance": 10268
+        "distance": 12235
     }
     ],
     "unvisited_nodes": [],
     "success": true,
     "message": "Optimization completed successfully"
-}
+    }
 ```
 
 ### Capacity-Constrained VRP Example
