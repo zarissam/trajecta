@@ -3,3 +3,11 @@ uvicorn[standard]
 ortools
 geopy
 pydantic
+pandas
+plotly
+numpy
+folium
+osmnx
+networkx
+matplotlib
+seaborn
